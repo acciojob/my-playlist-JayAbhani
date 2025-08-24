@@ -1,1 +1,41 @@
 /*  your css code here. If applicable */
+/* Additional CSS */
+    body{
+      background-color: rgb(204, 204, 204);
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      margin: 0;
+      padding: 24px;
+    }
+
+    h1, h2 { text-align: center; }
+
+    /* Playlist box */
+    .playlist{
+      max-width: 900px;
+      margin: 0 auto 16px auto;
+      background: #fff;
+      border-radius: 10px;
+      border: 2px solid #00000055;
+      padding: 18px 22px;
+    }
+
+    /* Remove bullets from list items */
+    ul { padding-left: 18px; }
+    li { list-style-type: none; margin: 6px 0; }
+
+    /* Anchor styling */
+    a { text-decoration-line: none; color: #000; }
+    a:hover { text-decoration-line: underline; }
+
+    /* Media player containers */
+    .player_one,
+    .player_two{
+      max-width: 900px;
+      margin: 0 auto 20px auto;
+      background-color: rgb(255, 255, 255);
+      padding: 18px;
+      border-radius: 10px;
+      border: 2px solid #00000055;
+    }
+
+    video, audio { width: 100%; display: block; }
